@@ -12,7 +12,7 @@ Crypto tracker is an app that showcase the trading coins in the crypto space and
 ![crypto tracker](https://user-images.githubusercontent.com/25850598/132965906-76560d06-d71e-4f8b-9ce4-bd5dcdac65d2.png)
 
 
-__LIVE LINK__:
+__LIVE LINK__: https://react-nextjs-crypto-tracker.vercel.app/
 
 ### Features
 - The crypto tracker displays ten crypto coins per page.
@@ -42,4 +42,4 @@ Teri Eyenike
 Follow me [Twitter](https://twitter.com/terieyenike)
 
 ### Deployment
-Vercel
+[Vercel](https://vercel.com)
