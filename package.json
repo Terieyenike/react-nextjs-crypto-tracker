@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^3.4.1",
     "@heroicons/react": "^1.0.4",
+    "aws-amplify": "^4.3.33",
     "next": "11.1.2",
     "next-themes": "^0.0.15",
     "react": "17.0.2",
