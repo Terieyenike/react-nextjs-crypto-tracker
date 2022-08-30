@@ -3,10 +3,10 @@ import CoinList from '../components/CoinList';
 import SearchBar from '../components/SearchBar';
 import Layout from '../sections/Layout';
 
+
 import {
     useAuthenticator,
     withAuthenticator,
-    // View,
     Button,
     Flex,
     Heading
@@ -37,15 +37,14 @@ const Home = ({filteredCoins}) => {
         <div>
             <Layout>
                 <Flex direction={"row"} justifyContent="center" alignItems="center">
-                    {/*<View textAlign='center'>*/}
-
-                        <Heading level={3} color="blue" fontWeight="bold">Welcome, {user.username}!</Heading>
-                        <Button fontWeight='normal' onClick={signOut} size='small'>
-                            Sign Out
-                        </Button>
 
 
-                    {/*</View>*/}
+                    <Heading level={3} color="neutral[100]" fontWeight="bold">Welcome, {user.username}!</Heading>
+                    <Button fontWeight='normal' onClick={signOut} size='small'>
+                        Sign Out
+                    </Button>
+
+
                 </Flex>
 
                 <section className="flex flex-col items-center m-2.5">
