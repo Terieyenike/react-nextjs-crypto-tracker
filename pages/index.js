@@ -20,6 +20,7 @@ Amplify.configure(awsExports)
 const Home = ({filteredCoins}) => {
     const {user, signOut} = useAuthenticator((context) => [context.user]);
 
+    console.log(user, signOut)
     const [search, setSearch] = useState('');
 
 
